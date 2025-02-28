@@ -1,5 +1,5 @@
 $VM_SIZE = "Standard_B2pts_v2"
-$RESULT_FILE_NAME = "result123.json"
+$RESULT_FILE_NAME = "result.json"
 
 $files = Get-ChildItem -Path ./data/ -File
 $result = @()
